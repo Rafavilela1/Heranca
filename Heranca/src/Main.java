@@ -6,5 +6,19 @@ public class Main {
 		carro1.setMarca("Ford");
 		carro1.setModelo("Fiesta");
 		carro1.setQuatroPortas(true);
+		
+		
+		carro1.imprimeDados();
+		
+		
+		Moto moto1 = new Moto();
+		moto1.setAno(2022);
+		moto1.setMarca("Honda");
+		moto1.setModelo("Titan");
+		
+		
+		moto1.imprimeDados();
+		moto1.empinar();
+		moto1.buzinar();
 	}
 }
